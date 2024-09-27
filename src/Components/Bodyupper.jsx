@@ -12,7 +12,7 @@ function Bodyupper() {
              <p className='text-slate-500 text-lg'>"Discover India's beauty and culture with customized trips </p>
              <p className='text-slate-500 text-lg'>designed for unforgettable experiences."</p>
              <div className='pt-8' >
-             <button className='border-2 rounded-full mt-6 p-4 pl-8 pr-8 bg-red-500 hover:bg-red-600'><h1 className='text-[18px]'>Plan a Trip</h1> </button>
+            <Link to={"/plantrip"}> <button className='border-2 rounded-full mt-6 p-4 pl-8 pr-8 bg-red-500 hover:bg-red-600'><h1 className='text-[18px]'>Plan a Trip</h1> </button> </Link>
              <Link to={"/blogs"}><button className='m-8 hover:border-2 p-4 rounded-full bg-slate-200'><h1 className='text-[18px]'> Watch Our Blog's</h1></button></Link>
              </div>
              
