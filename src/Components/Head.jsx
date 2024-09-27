@@ -6,7 +6,7 @@ function Head() {
   return (
     <div className='h-20 w-full bg-black flex fixed pl-16 z-30' >
         <div className='h-16 overflow-hidden '>
-           <Link to={'/'}> <img className='h-[80px]  ' src="./public/travel india2.png " alt="" /> </Link>
+           <Link to={'/'}> <img className='h-[80px]  ' src="https://i.imghippo.com/files/0JLVz1727471260.png" alt="" /> </Link>
         </div>
         <div  className='flex text-lg items-center gap-20 ml-40 pointer '>
         <Link to={'/destination'}> <h1 className='hover:text-red-600' >Our Destination's</h1> </Link>

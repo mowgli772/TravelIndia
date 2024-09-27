@@ -7,7 +7,7 @@ function RecomArrow() {
     Or Choose From Here
   </h1></div>
     <div className='bg-[#ffffff] w-full h-32 flex items-center justify-center'>
-        <img className='h-full h-32 mr-48 rotate-12 mb-8' src="./public/arrow.avif" alt="" />
+        <img className='h-full h-32 mr-48 rotate-12 mb-8' src="https://i.imghippo.com/files/uhfI51727471343.avif" alt="" />
     </div>
     </div>
   )

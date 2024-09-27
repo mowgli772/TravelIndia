@@ -18,7 +18,7 @@ function Bodyupper() {
              
         </div>
    <div > 
-    <img className='mt-28' src="./src/model2.jpg" alt="" />
+    <img className='mt-28' src="https://i.imghippo.com/files/N9P7M1727471106.jpg" alt="" />
    </div>
    
     </div>
