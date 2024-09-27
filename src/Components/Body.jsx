@@ -6,7 +6,6 @@ import HomePackage from './HomePackage'
 import Homeblog from './Homeblog'
 import Whychoose from './Whychoose'
 import Review from './Review'
-import Subscribe from './Subscribe'
 import Footer from './Footer'
 import TopDestinations from './Homeplace2'
 
