@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-black text-gray-300 py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Logo and About */}
+          
           <div>
             <h2 className="text-white text-3xl font-bold mb-4">Travel India</h2>
             <p className="text-gray-400">
@@ -14,29 +14,29 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Navigation Links */}
+          
           <div>
             <h3 className="text-white text-xl font-semibold mb-4">Quick Links</h3>
             <ul>
               <li className="mb-2">
-                <a href="#" className="hover:text-white">Home</a>
+                <a href="/" className="hover:text-white">Home</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-white">About Us</a>
+                <a href="/aboutus" className="hover:text-white">About Us</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-white">Destinations</a>
+                <a href="/destination" className="hover:text-white">Destinations</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-white">Tours</a>
+                <a href="/packages" className="hover:text-white">Tours</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-white">Contact Us</a>
+                <a href="/contactus" className="hover:text-white">Contact Us</a>
               </li>
             </ul>
           </div>
 
-          {/* Social Media */}
+        
           <div>
             <h3 className="text-white text-xl font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Newsletter */}
+         
           <div>
             <h3 className="text-white text-xl font-semibold mb-4">Subscribe to Our Newsletter</h3>
             <form className="flex flex-col space-y-3">
@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Footer */}
+        
         <div className="border-t border-gray-700 mt-8 pt-6 text-center">
           <p className="text-gray-400">© 2024 Travel India. All rights reserved.</p>
           <p className="text-gray-400 mt-2">Made with <span className="text-red-500">❤</span> in India</p>

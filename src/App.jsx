@@ -8,6 +8,7 @@ import Body from './Components/Body'
 import DestinationComponent from './Components/Innercard/Destination'
 import Home from './Components/Home'
 import Plantrip from './Components/Plantrip'
+import Contactus from './Components/Contactus'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 
  
@@ -44,6 +45,10 @@ const route = createBrowserRouter([
 {
   path:'/plantrip',
   element: <Plantrip />
+},
+{
+  path:"/contactus",
+  element:<Contactus />
 }]
 }
   ])

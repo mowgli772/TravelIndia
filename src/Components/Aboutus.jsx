@@ -1,10 +1,11 @@
 import React from 'react';
 import { FaFacebookF, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
   return (
     <div className="bg-slate-100 text-gray-800">
-      {/* Header Section */}
+      
       <header className=" pt-24 bg-slate-600 text-white py-12">
         <h1 className="text-4xl font-extrabold text-center">About Us</h1>
         <p className="mt-4 text-center text-lg">
@@ -12,10 +13,10 @@ const AboutUs = () => {
         </p>
       </header>
 
-      {/* Main Content */}
+     
       <div className="container mx-auto px-6 py-12">
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Left Section */}
+         
           <div className="flex flex-col justify-center">
             <h2 className="text-3xl font-bold mb-4">Who We Are</h2>
             <p className="mb-4">
@@ -26,17 +27,17 @@ const AboutUs = () => {
             </p>
           </div>
 
-          {/* Right Section with Image */}
+          
           <div className="flex justify-center items-center">
             <img
-              src="./src/assets/travel india2.png"
+              src="https://i.imghippo.com/files/0JLVz1727471260.png"
               alt="About Us"
               className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
         </div>
 
-        {/* Our Mission Section */}
+      
         <div className="mt-12">
           <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
           <p>
@@ -48,7 +49,7 @@ Join us on an adventure where budget meets exploration, and let us guide you thr
           </p>
         </div>
 
-        {/* Our Values Section */}
+        
         <div className="mt-12">
           <h2 className="text-3xl font-bold mb-4">Our Values</h2>
           <ul className="list-disc list-inside space-y-2">
@@ -85,7 +86,7 @@ Join us on an adventure where budget meets exploration, and let us guide you thr
           </ul>
         </div>
 
-        {/* Contact Us Section */}
+      
         <div className="mt-12 text-center">
           <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
           <p>If you have any questions or need assistance, feel free to contact us!</p>
@@ -113,9 +114,11 @@ Join us on an adventure where budget meets exploration, and let us guide you thr
               <FaEnvelope size={30} />
             </a>
           </div>
-          <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700">
+        <Link to={'/contactus'}>  <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700">
             Contact Us
           </button>
+          </Link>
+          
         </div>
       </div>
     </div>
