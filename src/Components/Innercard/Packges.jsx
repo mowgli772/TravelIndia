@@ -140,7 +140,7 @@ const tourPackages = [
       "Pangong Lake - Enjoy the stunning views.",
       "Nubra Valley - Experience the sand dunes."
     ],
-    image: "https://www.indianholidaytrip.com/Upload/Blog/Img_3342_202223151328_Ladakh_Diary.jpg?w=740",
+    image: "https://nishnaiholidays.com/wp-content/uploads/2023/08/Adventure-Activities-in-Leh-Ladakh-Trekking-Biking-and-River-Rafting.jpg",
     priceForOne: 65000, 
     priceForCouple: 120000
   },
