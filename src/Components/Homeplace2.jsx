@@ -3,7 +3,7 @@ import React from 'react';
 const destinations = [
     {
         name: "Taj Mahal, Agra",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR57E-nwOt0WtYM-aEQ6QjMpVeVUdIexGCs5w&s",
+        img: "https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=612x612&w=0&k=20&c=Uma6Q7KduznA6jUKcSquFP1iHHiw8UXcZEYVLONrmaQ=",
       },
       {
         name: "Jaipur, Rajasthan",
